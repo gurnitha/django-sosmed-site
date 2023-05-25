@@ -283,3 +283,33 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         NEXT:
 
         Protecting the home and account pages to unlogged in/un-registered user
+
+
+#### 5.13 AUTHENTICATION & AUTORIZATION - Hiding some menus from unlogged in user
+
+        modified:   templates/app/components/navbar.html
+
+        NOTE:
+
+        1. Menu for un-logged in user:
+
+        Home, About, Regiser, Login
+
+        2. Menu for logged in user
+
+        Home, About, Account, Logout
+
+        NOTE:
+
+        1. Successfully hiding some menus to un-authenticated user.
+
+        2. But user still can access, ie: the account page from the url like this:
+        http://127.0.0.1:8000/account/
+
+        NEXT:
+
+        Protecting the urls from un-authenticated user by using decorator 
+
+
+
+

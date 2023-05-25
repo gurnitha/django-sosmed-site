@@ -16,18 +16,24 @@
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
+                {% if user.is_authenticated %}
                 <li class="nav-item m-1">
-                    <a type="button" class="btn btn-outline-light" href="{% url 'post:account' %}">Account</a>
+                    <a type="button" class="btn btn-outline-light" href="{% url 'post:account' %}">
+                        Account
+                    </a>
                 </li>
                 <li class="nav-item m-1">
                     <a type="button" class="btn btn-outline-light" href="{% url 'users:logout' %}">Logout</a>
                 </li>
-                <!--            <li class="nav-item m-1">-->
-                <!--                <a type="button" class="btn btn-outline-light" href="#">Register</a>-->
-                <!--            </li>-->
-                <!--            <li class="nav-item m-1">-->
-                <!--                <a type="button" class="btn btn-outline-light" href="#">Login</a>-->
-                <!--            </li>-->
+                {% else %}
+                <li class="nav-item m-1">
+                    <a type="button" class="btn btn-outline-light" href="{% url 'users:register' %}">Register</a>
+                </li>
+                <li class="nav-item m-1">
+                    <a type="button" class="btn btn-outline-light" href="{% url 'users:login' %}">Login</a>
+                </li>
+                {% endif %}
+
             </ul>
         </div>
     </nav>
