@@ -78,20 +78,20 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 ## 3. STATIC DAN MEDIA FILES
 
 
-## 3.1 STATIC DAN MEDIA FILES - Membuat static files
+#### 3.1 STATIC DAN MEDIA FILES - Membuat static files
 
         modified:   .gitignore << -- static files created, but git ignoring static
         modified:   README.md
 
 
-## 3.2 STATIC DAN MEDIA FILES - Membuat path untuk static dan media files
+#### 3.2 STATIC DAN MEDIA FILES - Membuat path untuk static dan media files
 
         modified:   README.md
         modified:   config/settings.py
         modified:   config/urls.py
 
 
-## 3.3 STATIC DAN MEDIA FILES - Loading static files
+#### 3.3 STATIC DAN MEDIA FILES - Loading static files
 
         modified:   README.md
         modified:   config/settings.py << -- fixing static files path
@@ -100,3 +100,6 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         NOTE:
 
         Successfully load static files to home page :)
+
+
+#### 3.4 STATIC DAN MEDIA FILES - Memodifikasi README.md files
