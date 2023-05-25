@@ -265,4 +265,21 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 
         NEXT:
 
-        Define Logout 
+        Define Logout
+
+
+#### 5.12 AUTHENTICATION & AUTORIZATION - Membuat logout page dan pathnya
+
+        modified:   README.md
+        modified:   app/users/urls.py
+        modified:   templates/app/components/navbar.html
+        new file:   templates/app/users/logout.html
+
+        NOTE:
+
+        1. Successfully logged out user
+        2. The logged out user/un logged in user can view home and account page
+
+        NEXT:
+
+        Protecting the home and account pages to unlogged in/un-registered user
