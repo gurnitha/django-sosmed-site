@@ -251,3 +251,18 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         NEXT:
 
         Redirect logged in user to the home page
+
+
+#### 5.11 AUTHENTICATION & AUTORIZATION - Redirect logged in user to home page
+
+        modified:   README.md
+        modified:   config/settings.py
+
+        NOTE:
+
+        1. Successfully redirect to home page the logged in user
+        2. But it is not ye fully dynamic.
+
+        NEXT:
+
+        Define Logout 
