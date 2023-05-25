@@ -221,3 +221,12 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         3. Login page has not been created yet.
 
         NEXT: Styling the register form using django-crispy-forms
+
+
+#### 5.9 AUTHENTICATION & AUTORIZATION - Install and setup crispy-bootstrap4
+
+        modified:   config/settings.py
+        modified:   requirements.txt
+        modified:   templates/app/users/register.html
+
+        Successfully style the register form :)

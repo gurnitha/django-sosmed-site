@@ -38,6 +38,10 @@ INSTALLED_APPS = [
     'app.users.apps.UsersConfig',
     'app.post.apps.PostConfig',
 
+    # Third parties app
+    'crispy_forms',
+    'crispy_bootstrap4',
+
     # Default apps
     'django.contrib.admin',
     'django.contrib.auth',
@@ -137,3 +141,8 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Crispy forms
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
