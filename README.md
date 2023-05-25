@@ -23,7 +23,6 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         new file:   manage.py
         
 
-
 #### 1.3 DJANGO RROJECT DAN APP - Membuat django app 'app/post'
 
         new file:   app/post/__init__.py
@@ -33,3 +32,10 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         new file:   app/post/models.py
         new file:   app/post/tests.py
         new file:   app/post/views.py
+        
+
+#### 1.4 DJANGO RROJECT DAN APP - Register app post pada settings.py
+
+        modified:   README.md
+        modified:   app/post/apps.py
+        modified:   config/settings.py
