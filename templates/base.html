@@ -1,0 +1,29 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'post/css/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'post/css/base.css' %}">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iPost It | {% block title %}{{ block.super }}{% endblock title %}</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    {% include 'app/components/navbar.html'%}
+
+    <!-- Content -->
+    {% block content %}
+    {% endblock content %}
+
+    <!-- Modal -->
+    {% include 'app/components/modals.html'%}
+
+    <!-- Scripts -->
+    <script src="{% static 'post/js/jquery-slim.js' %}"></script>
+    <script src="{% static 'post/js/popper.js' %}"></script>
+    <script src="{% static 'post/js/bootstrap.js' %}"></script>
+</body>
+</html>
