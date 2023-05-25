@@ -195,7 +195,13 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         modified:   config/urls.py
 
 
-#### 5.7 AUTHENTICATION & AUTORIZATION - Membuat RegisterUserForm
+#### 5.7 AUTHENTICATION & AUTORIZATION - Rendering instance of the RegisterUserForm pada laman register
 
         modified:   README.md
-        new file:   app/users/forms.py
+        modified:   app/users/views.py
+        modified:   templates/app/users/register.html
+
+        NOTE:
+
+        1. Successfully render instances of the RegisterUserForm to register page.
+        2. But this form could not be used to register a new user.
