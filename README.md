@@ -89,3 +89,14 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         modified:   README.md
         modified:   config/settings.py
         modified:   config/urls.py
+
+
+## 3.3 STATIC DAN MEDIA FILES - Loading static files
+
+        modified:   README.md
+        modified:   config/settings.py << -- fixing static files path
+        modified:   templates/app/post/index.html
+
+        NOTE:
+
+        Successfully load static files to home page :)
