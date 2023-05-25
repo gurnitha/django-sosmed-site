@@ -181,3 +181,9 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 
         modified:   README.md
         new file:   templates/app/users/register.html
+
+
+#### 5.5 AUTHENTICATION & AUTORIZATION - Membuat register_page view
+
+        modified:   README.md
+        modified:   app/users/views.py
