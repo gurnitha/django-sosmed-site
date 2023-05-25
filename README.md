@@ -103,3 +103,6 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 
 
 #### 3.4 STATIC DAN MEDIA FILES - Memodifikasi README.md files
+
+
+## 4. BASE TEMPLATE AND TEMPLATE INHERITANCE
