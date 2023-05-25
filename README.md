@@ -73,3 +73,6 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 
         modified:   README.md
         new file:   templates/app/post/index.html
+
+
+## 3. STATIC DAN MEDIA FILES
