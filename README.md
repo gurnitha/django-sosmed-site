@@ -143,3 +143,9 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         modified:   templates/app/post/index.html << --- add link
 
         :)
+
+
+## 5. AUTHENTICATION & AUTORIZATION
+
+
+####
