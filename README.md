@@ -205,3 +205,19 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 
         1. Successfully render instances of the RegisterUserForm to register page.
         2. But this form could not be used to register a new user.
+
+
+#### 5.8 AUTHENTICATION & AUTORIZATION - Adding logic to register view
+
+        modified:   README.md
+        modified:   app/users/views.py
+
+        NOTE:
+
+        1. Successfully created a new user. 
+        2. But after register a new user, it redirects to login page with error message like this:.
+
+           "Reverse for 'login' not found. 'login' is not a valid view function or pattern name.""
+        3. Login page has not been created yet.
+
+        NEXT: Styling the register form using django-crispy-forms
