@@ -76,3 +76,9 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 
 
 ## 3. STATIC DAN MEDIA FILES
+
+
+## 3.1 STATIC DAN MEDIA FILES - Membuat static files
+
+        modified:   .gitignore << -- static files created, but git ignoring static
+        modified:   README.md
