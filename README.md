@@ -177,3 +177,7 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         2. Create superuser and a test user
 
 
+#### 5.4 AUTHENTICATION & AUTORIZATION - Membuat laman register
+
+        modified:   README.md
+        new file:   templates/app/users/register.html
