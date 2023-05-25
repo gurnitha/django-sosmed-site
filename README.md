@@ -61,3 +61,9 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         modified:   README.md
         new file:   app/post/urls.py
         modified:   config/urls.py
+
+
+#### 2.4 TEMPLATES, VIEWS AND URLS - Mengaktifkan django templates dan display 'hello world'
+
+        modified:   README.md
+        modified:   config/settings.py
