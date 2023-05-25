@@ -9,6 +9,9 @@ from django.conf.urls.static import static
 
 urlpatterns = [
 
+    # users
+    path('', include('app.users.urls', namespace='users')),
+
     # post
     path('', include('app.post.urls', namespace='post')),
 
