@@ -311,5 +311,27 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         Protecting the urls from un-authenticated user by using decorator 
 
 
+#### 5.14 AUTHENTICATION & AUTORIZATION - Melindungi laman home dan account dari un-authenticated user
+
+        modified:   README.md
+        modified:   app/post/views.py
+
+        NOTE:
+
+        1. Successfully protected home and account pages.
+        2. But the un-authenticated user automatically redirect to this:
+
+        http://127.0.0.1:8000/accounts/login/?next=/account/
+        Page not found (404)
+        Request Method: GET
+        Request URL:    http://127.0.0.1:8000/accounts/login/?next=/account/
+
+        NEXT:
+
+        Redirect un-authenticated user to login page
+
+        
+
+
 
 
