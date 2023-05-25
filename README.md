@@ -193,3 +193,9 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 
         new file:   app/users/urls.py
         modified:   config/urls.py
+
+
+#### 5.7 AUTHENTICATION & AUTORIZATION - Membuat RegisterUserForm
+
+        modified:   README.md
+        new file:   app/users/forms.py
