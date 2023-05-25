@@ -330,7 +330,17 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 
         Redirect un-authenticated user to login page
 
-        
+
+#### 5.15 AUTHENTICATION & AUTORIZATION - Redirect un-authenticated user to login page
+
+        modified:   README.md
+        modified:   config/settings.py
+
+        NOTE:
+
+        Successfully redirect un-authenticated user to login page.
+
+        DONE :)
 
 
 
