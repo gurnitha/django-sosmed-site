@@ -82,3 +82,10 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 
         modified:   .gitignore << -- static files created, but git ignoring static
         modified:   README.md
+
+
+## 3.2 STATIC DAN MEDIA FILES - Membuat path untuk static dan media files
+
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   config/urls.py
