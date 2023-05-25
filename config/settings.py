@@ -35,6 +35,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
 
     # My apps
+    'app.users.apps.UsersConfig',
     'app.post.apps.PostConfig',
 
     # Default apps
