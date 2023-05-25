@@ -117,3 +117,11 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         new file:   templates/base.html
 
         :)
+
+
+#### 4.2 BASE TEMPLATE AND TEMPLATE INHERITANCE - Membuat laman about
+
+        modified:   README.md
+        modified:   app/post/urls.py
+        modified:   app/post/views.py
+        new file:   templates/app/post/about.html
