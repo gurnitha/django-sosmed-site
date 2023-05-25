@@ -230,3 +230,24 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         modified:   templates/app/users/register.html
 
         Successfully style the register form :)
+
+
+#### 5.10 AUTHENTICATION & AUTORIZATION - Membuat laman login
+
+        modified:   app/users/urls.py <<-- setup the path using auth.LoginView
+        new file:   templates/app/users/login.html <<-- create laman login
+
+        NOTE:
+
+        1. Successfully logged in the user.
+        2. auth.LoginView comes with alert message
+        3. After success logged in, it redirects to accounts/profile like this:
+
+        http://127.0.0.1:8000/accounts/profile/
+        Page not found (404)
+        Request Method: GET
+        Request URL:    http://127.0.0.1:8000/accounts/profile/
+
+        NEXT:
+
+        Redirect logged in user to the home page
