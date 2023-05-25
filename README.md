@@ -148,4 +148,13 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 ## 5. AUTHENTICATION & AUTORIZATION
 
 
-####
+#### 5.1 AUTHENTICATION & AUTORIZATION - Create a new app called 'app/users'
+
+        modified:   README.md
+        new file:   app/users/__init__.py
+        new file:   app/users/admin.py
+        new file:   app/users/apps.py
+        new file:   app/users/migrations/__init__.py
+        new file:   app/users/models.py
+        new file:   app/users/tests.py
+        new file:   app/users/views.py
