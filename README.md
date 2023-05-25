@@ -166,3 +166,14 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
         modified:   app/users/apps.py
         modified:   config/settings.py
 
+
+#### 5.3 AUTHENTICATION & AUTORIZATION - Mengaktifkan django admin dan membuat superuser dan user
+
+        modified:   README.md
+
+        NOTE:
+
+        1. Create and apply migratoions
+        2. Create superuser and a test user
+
+
