@@ -131,3 +131,15 @@ Membuat aplikasi sosmed menggunakan Django v3.2.2
 
         modified:   README.md
         modified:   templates/app/components/navbar.html
+
+
+#### 4.4 BASE TEMPLATE AND TEMPLATE INHERITANCE - Membuat laman account
+
+        modified:   README.md
+        modified:   app/post/urls.py << --- create new path
+        modified:   app/post/views.py << --- create account_page view
+        modified:   templates/app/components/navbar.html << --- add link
+        new file:   templates/app/post/account.html << --- create new page
+        modified:   templates/app/post/index.html << --- add link
+
+        :)

@@ -12,3 +12,6 @@ def home_page(request):
 
 def about_page(request):
 	return render(request, 'app/post/about.html')
+
+def account_page(request):
+	return render(request, 'app/post/account.html')
